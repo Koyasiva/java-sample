@@ -4,7 +4,7 @@ pipeline {
     maven 'maven'
   }
   stages {
-   stage ('Initialize') {
+   stage ('Initializer') {
             steps {
                 sh '''
                     M2_HOME=/opt/maven
